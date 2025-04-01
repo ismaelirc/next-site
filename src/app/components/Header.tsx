@@ -3,7 +3,9 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="py-4 px-4 w-full flex justify-between items-center text-gray-600 ">
-      <span>Ismael Costa</span>
+      <Link href="/" className="hover:text-gray-900">
+        Ismael Costa
+      </Link>
       <div className="flex gap-4">
         <Link className="hover:text-gray-900" href="/">
           Projetos
